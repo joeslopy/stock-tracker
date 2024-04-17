@@ -4,6 +4,7 @@
   "main": "src/screens/StockScreen.tsx",
   "scripts": {
     "start": "expo start",
+    "dev": "NODE_ENV=dev expo start --clear",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
@@ -11,7 +12,8 @@
   "dependencies": {
     "@rneui/base": "^4.0.0-rc.7",
     "@rneui/themed": "^4.0.0-rc.8",
-    "expo": "~50.0.14",
+    "axios": "^1.6.8",
+    "expo": "~50.0.17",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-native": "0.73.6",

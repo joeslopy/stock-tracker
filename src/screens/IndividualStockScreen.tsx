@@ -7,10 +7,10 @@ import { thing } from "./tempData";
 import { StockCell } from "../components/StockCell";
 import { Search } from "../components/SearchBar";
 import { Finance } from "../interfaces";
+import { Link } from "expo-router";
 
 // bid, ask, open, high, low exchange, mkt cap, pe, 52h, 52l, vol, avg vol, yield, eps
 
-export default function IndividualStockScreen({
-  price,
-  summaryDetail,
-}: Finance.QuoteSummary) {}
+export default function IndividualStockScreen() {
+  return <View></View>;
+}
